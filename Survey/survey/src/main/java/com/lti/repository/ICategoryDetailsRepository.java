@@ -7,6 +7,6 @@ import org.springframework.data.repository.CrudRepository;
 import com.lti.models.CategoryDetails;
 
 
-public interface CategoryDetailsRepository extends CrudRepository<CategoryDetails, Integer> {
+public interface ICategoryDetailsRepository extends CrudRepository<CategoryDetails, Integer> {
 
 }

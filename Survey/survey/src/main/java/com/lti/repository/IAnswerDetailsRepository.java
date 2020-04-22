@@ -4,6 +4,6 @@ import org.springframework.data.repository.CrudRepository;
 
 import com.lti.models.AnswerDetails;
 
-public interface AnswerDetailsRepository extends CrudRepository<AnswerDetails, Integer> {
+public interface IAnswerDetailsRepository extends CrudRepository<AnswerDetails, Integer> {
 
 }

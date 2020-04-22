@@ -4,6 +4,6 @@ import org.springframework.data.repository.CrudRepository;
 
 import com.lti.models.UserFeedbackDetails;
 
-public interface UserFeedbackDetailsRepository extends CrudRepository<UserFeedbackDetails, Integer>  {
+public interface IUserFeedbackDetailsRepository extends CrudRepository<UserFeedbackDetails, Integer>  {
 
 }

@@ -4,6 +4,6 @@ import org.springframework.data.repository.CrudRepository;
 
 import com.lti.models.SubCategoryDetails;
 
-public interface SubCategoryDetailsRepository extends CrudRepository<SubCategoryDetails, Integer>  {
+public interface ISubCategoryDetailsRepository extends CrudRepository<SubCategoryDetails, Integer>  {
 
 }
