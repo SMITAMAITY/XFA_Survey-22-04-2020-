@@ -39,4 +39,15 @@ public class QuestionDetailsDaoImpl implements IQuestionDetailsDao {
 		
 	}
 
-}
+	@Override
+	public List<QuestionDetails> readQuestionDetailsByCategory(int categoryId) {
+		String jpql = "select q from  QuestionDetails q join CategoryDetails c"
+				+ " where c.categoryId = (select c.category from CategoryDetails) ";
+		TypedQuery<QuestionDetails> tquery = entityManager.createQuery(jpql, QuestionDetails.class);
+		System.out.println(tquery);
+		return tquery.getResultList();
+	}
+		
+	}
+
+
