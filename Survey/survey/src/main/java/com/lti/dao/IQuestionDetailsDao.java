@@ -13,5 +13,9 @@ public List<QuestionDetails> readAllQuestionDetails();
 //Insert details
 public void createQuestionDetails(QuestionDetails questionDetails);
 
-public List<QuestionDetails> readQuestionDetailsByCategory(int categoryId);
+public List<QuestionDetails> readQuestionDetailsByFirstCategory();
+public List<QuestionDetails> readQuestionDetailsBySecondCategory();
+public List<QuestionDetails> readQuestionDetailsByThirdCategory();
+public List<QuestionDetails> readQuestionDetailsByFourthCategory();
+
 }

@@ -9,4 +9,12 @@ public interface IQuestionDetailsService {
 	
 	
 	public void addQuestionDetails(QuestionDetails questionDetails);
+	
+	
+
+
+	 public List<QuestionDetails> findAllQuestionDetailsByFirstCategory();
+	 public List<QuestionDetails> findAllQuestionDetailsBySecondCategory();
+	 public List<QuestionDetails> findAllQuestionDetailsByThirdCategory();
+	 public List<QuestionDetails> findAllQuestionDetailsByFourthCategory();
 }
